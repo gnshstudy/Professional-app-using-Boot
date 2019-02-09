@@ -36,6 +36,7 @@ public class RestController {
 		ModelAndView log=new ModelAndView();
 		log.setViewName("welcomepage");
 		log.addObject("login", login);   
+		System.out.println("Hi");
 		return log;
 	}
 
