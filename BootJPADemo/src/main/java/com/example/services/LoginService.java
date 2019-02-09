@@ -17,6 +17,7 @@ public class LoginService{
 	
 	public LoginService(LoginRepository loginRepository)
 	{
+		System.out.println("Hi");
 		this.loginRepository=loginRepository;
 		
 	}

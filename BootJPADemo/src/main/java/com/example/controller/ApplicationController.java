@@ -9,6 +9,7 @@ public class ApplicationController {
 
 	@RequestMapping("/")
 	public String Welcome() {
+		System.out.println("Hi");
 		return "loginform";
 	}
 
