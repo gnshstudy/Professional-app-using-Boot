@@ -26,6 +26,7 @@ public class RestController {
 		User user = new User(username, firstname, lastname, age, password);
 		
 		userService.saveMyUser(user);
+		System.out.println("Hi");
 		return "welcomepage";
 	}
 
